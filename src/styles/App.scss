@@ -1,0 +1,29 @@
+@use '../pages/Home/HomePag/index.scss' as homePag;
+@use '../pages/hooksPages/UseStatePag/index.scss' as useStatePag;
+@use '../pages/hooksPages/UseEffectPag/index.scss' as useEffectPag;
+@use '../pages/hooksPages/UseCallbackPag/index.scss' as useCallbackPag;
+@use '../pages/hooksPages/UseMemoPag/index.scss' as useMemoPag;
+@use '../pages/hooksPages/UseContextPag/index.scss' as useContextPag;
+@use '../pages/hooksPages/UseRefPag/index.scss' as useRefPag;
+@use '../pages/hooksPages/UseReducerPag/index.scss' as useReducerPag;
+@use '../pages/hooksPages/UseTransitionPag/index.scss' as useTransitionPag;
+@use '../pages/hooksPages/UseImperativeHandlePag/index.scss' as useImperativeHandlePag;
+@use '../pages/hooksPages/UseLayoutEffectPag/index.scss' as useLayoutEffectPag;
+@use '../pages/hooksPages/UseInsertionEffectPag/index.scss' as useInsertionEffectPag;
+@use '../pages/hooksPages/UseDeferredValuePag/index.scss' as useDeferredValuePag;
+@use '../pages/hooksPages/UseSyncExternalStorePag/index.scss' as useSyncExternalStorePag;
+@use '../pages/hooksPages/UseIdPag/index.scss' as useIdPag;
+@use '../pages/hooksPages/UseDebugValuePag/index.scss' as useDebugValuePag;
+@use '../components/common/Navbar/index.scss' as navbar;
+@use '../components/common/Footer/index.scss' as footer;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}

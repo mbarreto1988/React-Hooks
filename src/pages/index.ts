@@ -1,0 +1,16 @@
+export { HomePag as Home } from "./Home/HomePag";
+export { UseStatePag } from "./hooksPages/UseStatePag";
+export { UseEffectPag } from "./hooksPages/UseEffectPag";
+export { UseCallbackPag } from "./hooksPages/UseCallbackPag";
+export { UseMemoPag } from "./hooksPages/UseMemoPag";
+export { UseContextPag } from "./hooksPages/UseContextPag";
+export { UseRefPag } from "./hooksPages/UseRefPag";
+export { UseReducerPag } from "./hooksPages/UseReducerPag";
+export { UseTransitionPag } from "./hooksPages/UseTransitionPag";
+export { UseImperativeHandlePag } from "./hooksPages/UseImperativeHandlePag";
+export { UseLayoutEffectPag } from "./hooksPages/UseLayoutEffectPag";
+export { UseInsertionEffectPag } from "./hooksPages/UseInsertionEffectPag";
+export { UseDeferredValuePag } from "./hooksPages/UseDeferredValuePag";
+export { UseSyncExternalStorePag } from "./hooksPages/UseSyncExternalStorePag";
+export { UseIdPag } from "./hooksPages/UseIdPag";
+export { UseDebugValuePag } from "./hooksPages/UseDebugValuePag";

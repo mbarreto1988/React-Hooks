@@ -246,9 +246,9 @@ Desarrollado por **Mati**, con fines educativos para practicar y entender cómo 
 
 ## 💡 Resumen general:
 
-1. 🧩 Básicos y más usados: useState, useEffect, useContext, useRef
-2. ⚙️ Optimización y performance: useMemo, useCallback, useTransition, useDeferredValue
-3. 🧠 Avanzados / específicos: useImperativeHandle, useSyncExternalStore, useInsertionEffect, useDebugValue
+> 🧩 Básicos y más usados: useState, useEffect, useContext, useRef
+> ⚙️ Optimización y performance: useMemo, useCallback, useTransition, useDeferredValue
+> 🧠 Avanzados / específicos: useImperativeHandle, useSyncExternalStore, useInsertionEffect, useDebugValue
 
 ---
 ### 🏆 Hooks más usados (básicos y esenciales)
@@ -272,10 +272,7 @@ Desarrollado por **Mati**, con fines educativos para practicar y entender cómo 
 14. useId → generar IDs únicos y estables.
 15. useDebugValue → mostrar info en DevTools (para custom hooks).
 
-### 🧩 Hooks avanzados / más específicos
-- useImperativeHandle → exponer métodos desde un componente hijo.
-- useSyncExternalStore → sincronizar con stores externos.
-- useInsertionEffect → insertar estilos antes del render.
-- useId → generar IDs únicos y estables.
-- useDebugValue → mostrar info en DevTools (para custom hooks).#   R e a c t - H o o k s  
- 
+### 💡 Resumen rápido:
+- 🔥 Los más usados en el 90% de los proyectos: useState, useEffect, useContext, useRef.
+- ⚙️ Los de optimización: useMemo, useCallback, useTransition, useDeferredValue.
+- 🧠 Los avanzados: useImperativeHandle, useSyncExternalStore, useInsertionEffect, useDebugValue.

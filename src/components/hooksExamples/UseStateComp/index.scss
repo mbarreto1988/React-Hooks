@@ -1,0 +1,74 @@
+// 🎨 Variables
+$color-bg: #f5f7fa;
+$color-primary: #0077b6;
+$color-accent: #ef476f;
+$color-muted: #6c757d;
+$radius: 8px;
+$shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+$transition: 0.3s ease-in-out;
+
+.use-state {
+  background: $color-bg;
+  padding: 1.5rem;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+
+  &__title {
+    color: $color-primary;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__description {
+    color: $color-muted;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  &__count {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: darken($color-primary, 10%);
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+
+  &__button {
+    border: none;
+    border-radius: $radius;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background $transition, transform $transition;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &--inc {
+      background-color: $color-primary;
+
+      &:hover {
+        background-color: darken($color-primary, 10%);
+      }
+    }
+
+    &--dec {
+      background-color: $color-accent;
+
+      &:hover {
+        background-color: darken($color-accent, 10%);
+      }
+    }
+  }
+}

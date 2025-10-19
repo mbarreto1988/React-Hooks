@@ -1,0 +1,84 @@
+// 🎨 Variables
+$color-bg: #f4f7fb;
+$color-primary: #0077b6;
+$color-secondary: #00b4d8;
+$color-text: #222;
+$color-muted: #555;
+$radius: 8px;
+$shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+$transition: 0.2s ease-in-out;
+
+.use-callback {
+  background: $color-bg;
+  padding: 1.5rem;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  max-width: 400px;
+  margin: 1rem auto;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+
+  &__title {
+    color: $color-primary;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__description {
+    color: $color-muted;
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+
+  &__counter {
+    margin-bottom: 1rem;
+  }
+
+  &__count {
+    font-weight: 600;
+    color: $color-text;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  &__button {
+    background: $color-primary;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: $radius;
+    cursor: pointer;
+    transition: background $transition, transform $transition;
+
+    &:hover {
+      background: darken($color-primary, 10%);
+      transform: scale(1.05);
+    }
+  }
+
+  &__input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: $radius;
+    border: 1px solid lighten($color-primary, 25%);
+    margin-top: 1rem;
+    font-size: 1rem;
+    outline: none;
+
+    &:focus {
+      border-color: $color-secondary;
+    }
+  }
+
+  &__text {
+    margin-top: 0.5rem;
+    color: $color-text;
+    font-weight: 500;
+  }
+}

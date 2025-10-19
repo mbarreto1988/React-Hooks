@@ -1,0 +1,89 @@
+// 🎨 Variables
+$color-bg: #f5f7fa;
+$color-primary: #0077b6;
+$color-secondary: #00b4d8;
+$color-text: #222;
+$color-muted: #6c757d;
+$radius: 8px;
+$shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+$transition: 0.2s ease-in-out;
+
+.use-imperative {
+  background-color: $color-bg;
+  padding: 1.5rem;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  max-width: 450px;
+  margin: 1rem auto;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+
+  &__title {
+    color: $color-primary;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__description {
+    color: $color-muted;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  &__input-wrapper {
+    margin-bottom: 1rem;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid lighten($color-primary, 30%);
+    border-radius: $radius;
+    outline: none;
+    transition: border $transition;
+
+    &:focus {
+      border-color: $color-primary;
+    }
+  }
+
+  &__value {
+    color: $color-text;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  &__button {
+    border: none;
+    border-radius: $radius;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    transition: background $transition, transform $transition;
+
+    &--focus {
+      background: $color-primary;
+
+      &:hover {
+        background: darken($color-primary, 10%);
+        transform: scale(1.05);
+      }
+    }
+
+    &--clear {
+      background: $color-secondary;
+
+      &:hover {
+        background: darken($color-secondary, 10%);
+        transform: scale(1.05);
+      }
+    }
+  }
+}

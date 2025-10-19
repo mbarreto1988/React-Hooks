@@ -1,0 +1,29 @@
+@use '../../../components/hooksExamples/UseIdComp/index.scss' as useIdComp;
+
+$font-main: 'Segoe UI', sans-serif;
+$color-bg: #f8fafc;
+$color-title: #1d3557;
+
+.use-id-page {
+  background-color: $color-bg;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: $font-main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__title {
+    color: $color-title;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

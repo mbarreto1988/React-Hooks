@@ -1,0 +1,72 @@
+@use "../../../styles/variables" as *;
+
+.home {
+  background-color: $color-bg;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: $color-text;
+
+  &__title {
+    text-align: center;
+    color: $color-primary;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__intro {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: darken($color-text, 10%);
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: $color-accent;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  &__item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-4px);
+    }
+  }
+
+  &__name {
+    display: block;
+    font-size: 1.1rem;
+    color: $color-primary;
+    margin-bottom: 0.3rem;
+  }
+
+  &__desc {
+    font-size: 0.9rem;
+    color: darken($color-text, 20%);
+  }
+
+  &__footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: $color-accent;
+  }
+}
