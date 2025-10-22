@@ -1,5 +1,7 @@
 import { useEffect, useState, useDebugValue } from "react";
 
+  // 🔍 Esto se verá en las DevTools de React
+
 export function useOnlineStatus() {
   const [isOnline, setIsOnline] = useState(navigator.onLine);
 
@@ -16,7 +18,7 @@ export function useOnlineStatus() {
     };
   }, []);
 
-  // 🔍 Esto se verá en las DevTools de React
+
   useDebugValue(isOnline ? "🟢 Online" : "🔴 Offline");
 
   return isOnline;

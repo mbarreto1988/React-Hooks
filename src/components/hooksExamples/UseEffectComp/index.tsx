@@ -1,12 +1,5 @@
 import { useEffect, useState } from "react";
 
-/**
- * 🧠 useEffect
- * Se usa para ejecutar efectos secundarios en componentes:
- * llamadas a APIs, suscripciones, timers o manipulación del DOM.
- * Por defecto se ejecuta después del render.
- */
-
 interface User {
   id: number;
   name: string;

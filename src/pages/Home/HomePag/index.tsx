@@ -1,8 +1,5 @@
 
-/**
- * 🏠 Home Page
- * Muestra una descripción general de los hooks disponibles y cómo se pueden probar.
- */
+// Muestra una descripción general de los hooks disponibles y cómo se pueden probar.
 
 export const HomePag = () => {
   const hooks = [

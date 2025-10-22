@@ -1,10 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 
-/**
- * 🧭 Navbar
- * Barra de navegación simple para moverte entre las páginas de ejemplos de Hooks.
- */
-
 export const Navbar = () => {
   const location = useLocation();
 

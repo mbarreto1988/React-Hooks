@@ -1,9 +1,4 @@
 
-/**
- * 🦶 Footer
- * Pie de página simple para el proyecto de Hooks.
- * Muestra una breve firma y el año actual.
- */
 export const Footer = () => {
   const year = new Date().getFullYear();
 

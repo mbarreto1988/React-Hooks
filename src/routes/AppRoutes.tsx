@@ -18,10 +18,7 @@ import {
   UseDebugValuePag,
 } from "../pages";
 
-/**
- * 📍 AppRoutes
- * Contiene todas las rutas principales del proyecto.
- */
+// Contiene todas las rutas principales del proyecto.
 export const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Home />} />

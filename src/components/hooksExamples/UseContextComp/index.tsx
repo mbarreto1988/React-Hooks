@@ -1,11 +1,5 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
 
-/**
- * 🧠 useContext
- * Permite compartir valores (estado, funciones, etc.)
- * entre varios componentes sin tener que pasarlos como props.
- */
-
 interface ThemeContextType {
   theme: "claro" | "oscuro";
   toggleTheme: () => void;

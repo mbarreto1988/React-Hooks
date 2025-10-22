@@ -1,12 +1,5 @@
 import { useState } from "react";
 
-/**
- * 🧠 useState
- * Es el hook básico para manejar el estado en componentes funcionales.
- * Permite guardar y actualizar valores (números, strings, objetos, etc.)
- * y hace que el componente se re-renderice cuando el valor cambia.
- */
-
 export const UseStateComp = () => {
   const [count, setCount] = useState(0);
 

@@ -4,10 +4,8 @@ import { Footer } from "./components/common/Footer";
 import { AppRoutes } from "./routes/AppRoutes";
 import "./styles/App.scss";
 
-/**
- * 🌐 App
- * Contenedor principal: renderiza Navbar, Rutas y Footer.
- */
+// Contenedor principal: renderiza Navbar, Rutas y Footer.
+
 function App() {
   return (
     <BrowserRouter>

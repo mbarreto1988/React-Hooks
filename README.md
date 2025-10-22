@@ -160,37 +160,6 @@ $color-accent: #457b9d;
 
 ---
 
-## 🎥 Capturas y demostraciones
-
-A continuación se muestran algunos ejemplos visuales del proyecto en funcionamiento:
-
-| Ejemplo | Descripción | Vista previa |
-|----------|--------------|---------------|
-| 🧮 `useState` | Contador simple con incremento y decremento. | ![useState Demo](https://raw.githubusercontent.com/tuusuario/react-hooks-playground/main/docs/demo-usestate.gif) |
-| 🌐 `useEffect` | Llamada a API para mostrar usuarios. | ![useEffect Demo](https://raw.githubusercontent.com/tuusuario/react-hooks-playground/main/docs/demo-useeffect.gif) |
-| 🧠 `useMemo` | Cálculo optimizado con memoización. | ![useMemo Demo](https://raw.githubusercontent.com/tuusuario/react-hooks-playground/main/docs/demo-usememo.gif) |
-| 🔄 `useCallback` | Prevención de renders innecesarios. | ![useCallback Demo](https://raw.githubusercontent.com/tuusuario/react-hooks-playground/main/docs/demo-usecallback.gif) |
-
-> 💡 Si clonás este repo, podés grabar tus propios GIFs con **ScreenToGif**, **OBS** o **Kap**, y reemplazar los enlaces en `docs/`.
-
----
-
-## 📂 Carpeta recomendada para media
-
-Para mantener el proyecto limpio, agregá una carpeta `/docs` en la raíz:
-
-```
-docs/
-├── demo-usestate.gif
-├── demo-useeffect.gif
-├── demo-usememo.gif
-└── demo-usecallback.gif
-```
-
-Estos archivos se referencian directamente en el README.
-
----
-
 ## 🖥️ Cómo correr el proyecto
 
 1. Cloná el repositorio  
